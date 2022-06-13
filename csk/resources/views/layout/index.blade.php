@@ -11,6 +11,7 @@
     <meta name="keywords" content="PHP, MySql, Laravel">
     <meta name="author" content="Colin Renkema">
     <link rel="shortcut icon" type="png" href="/img/Black.png">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
         
     
 </head>
@@ -18,6 +19,6 @@
     @include('layout.header')
     @yield('body')
     @include('layout.footer')
-    <script src="../path/to/flowbite/dist/flowbite.js"></script>
+    <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
 </body>
 </html>
