@@ -18,5 +18,6 @@
     @include('layout.header')
     @yield('body')
     @include('layout.footer')
+    <script src="../path/to/flowbite/dist/flowbite.js"></script>
 </body>
 </html>
